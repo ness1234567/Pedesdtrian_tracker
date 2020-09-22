@@ -4,7 +4,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Only prerequisites required is Python 3.6+, with pip3 installed.
+Prerequisites required is Python 3.6+, with pip3 installed.
+There must also be a video, "output.mp4" for the pedestrian tracker to read from. Note that the training is optimised for pedestrians of size 64x128 pixels.
 
 ### Installing
 
@@ -22,7 +23,7 @@ git clone gitlab@gitlab.cse.unsw.EDU.AU:z5112650/COMP9517-Husband_Hunters.git
 pip3 install -r requirements.txt
 ```
 
-3. Run Jupyter and modify the notebook file.
+3. Run Jupyter and run the notebook file.
 
 ```
 jupyter notebook
